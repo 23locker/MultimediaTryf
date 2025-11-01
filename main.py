@@ -431,6 +431,7 @@ class MyWidget(QtWidgets.QWidget):
         self.save_history()
         self.load_history_ui()
 
+    # !! проверить это !!
     def fetch_formats(self):
         url = self.user_url.text().strip()
         if not url or "https" not in url:
